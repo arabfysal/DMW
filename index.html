@@ -6,12 +6,16 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/brands.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/solid.min.css">
 </head>
+
 <body>
 	<nav class="navbar navbar-expand-md navbar-light bg-white">
 		<div class="nav-brand">
-			<a href="#"><img src="image/dream logo.png" style="height: 90px;"></a>
+			<a href="#"><img src="image/dream logo.png" class="img-fluid" style="height: 75px;"></a>
 		</div>
 		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menuList">
 			<span class="navbar-toggler-icon"></span>
@@ -20,26 +24,305 @@
 			<ul class="navbar-nav nav-tabs nav-fill">
 				<li class="nav-item">
 					<a href="#" class="nav-link">Home</a>
-					<a href="#" class="nav-link">welcome</a>
 				</li>
 				<li class="nav-item dropdown">
-					<a href="#" class="nav-link">Portfolio</a>
+					<a href="#about" class="nav-link">About</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">Products</a>
 					<div class="dropdown-menu">
-						<a href="#" class="dropdown-item">Shanan-bevy Collection</a>
-						<a href="#" class="dropdown-item">Dream Makeup galery</a>
-						<a href="#" class="dropdown-item">Cosmetics</a>
+						<a href="#shanan" class="dropdown-item">Shahnan-bevy Collection</a>
+						<a href="#dreamgalery" class="dropdown-item">Dream Makeup galery</a>
+						<a href="#cosmetic" class="dropdown-item">Cosmetics</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a href="#" class="nav-link">Contact</a>
+					<a href="#footer" class="nav-link">Contact</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
-	<p>hello</p>
+	
+
+	<div class="container">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" controls src="image/vedio.mp4" allowfullscreen style="height: 100%;"></iframe>
+		</div>
+	</div>
+
+	<!-- About US -->
+
+	<div class="container"> <!--apply padding top to card-->
+		<div class="card" id="about">
+			<h3 class="card-title" style="text-align: center;">The Dream</h3>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-md-4">Lorem IpsumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					<div class="col-md-4">Lorem IpsumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					<div class="col-md-4">Lorem IpsumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Second panel-->
+
+	<div class="container"> <!--apply padding top to card-->
+		<div class="card" id="dreamgalery" style="margin-top: 50px;">
+			<h3 class="card-title" style="text-align: center;">The Galery</h3>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="image/dream1.jpg" class="panel-img img-fluid">
+						<a href="#" data-toggle="modal" data-target="#multpic"> Click me for more...</a>
+					</div>
+					<div class="col-md-4">
+						<img src="image/dream7.jpg" class="panel-img img-fluid">
+						<a href="#" data-toggle="modal" data-target="#multpic1"> Click me for more...</a>
+					</div>
+					<div class="col-md-4">
+						<img src="image/las1.jpg" class="panel-img img-fluid">
+						<a href="#" data-toggle="modal" data-target="#multpic2"> Click me for more...</a>
+					</div>
+				</div>
+					<!-- Second row -->
+				<div class="row">
+					<div class="col-md-4">
+						<img src="image/dream11.jpg" class="panel-img img-fluid">
+						<a href="#" data-toggle="modal" data-target="#multpic3"> Click me for more...</a>
+					</div>
+					<div class="col-md-4">
+						<img src="image/dream3.jpg" class="panel-img img-fluid">
+					</div>
+					<div class="col-md-4">
+						<img src="image/dream9.jpg" class="panel-img img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--The Modals-->
+
+	<div class="modal" id="multpic">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Welcome to Dream Makeup World galery</h5>
+				<button type="button" class="close" data-dismiss="modal">
+					<span>&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div >
+					<img src="image/dream4.jpg" class="img-fluid multpic-img">
+				</div>
+				<div >
+					<img src="image/dream1.jpg" class="img-fluid multpic-img">
+				</div>
+				<div >
+					<img src="image/dream5.jpg" class="img-fluid multpic-img">
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="modal" id="multpic1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Welcome to Dream Makeup World galery</h5>
+				<button type="button" class="close" data-dismiss="modal">
+					<span>&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div >
+					<img src="image/dream7.jpg" class="img-fluid multpic-img">
+				</div>
+				<div >
+					<img src="image/modalp1.jpg" class="img-fluid multpic-img">
+				</div>
+				<div >
+					<img src="image/modalp2.jpg" class="img-fluid multpic-img">
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="modal" id="multpic2">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Welcome to Dream Makeup World galery</h5>
+				<button type="button" class="close" data-dismiss="modal">
+					<span>&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div >
+					<img src="image/las.jpg" class="img-fluid multpic-img">
+				</div>
+				<div >
+					<img src="image/las1.jpg" class="img-fluid multpic-img">
+				</div>
+				<div >
+					<img src="image/las2.jpg" class="img-fluid multpic-img">
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="modal" id="multpic3">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Welcome to Dream Makeup World galery</h5>
+				<button type="button" class="close" data-dismiss="modal">
+					<span>&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div >
+					<img src="image/dream11.jpg" class="img-fluid multpic-img">
+				</div>
+				<div >
+					<img src="image/dream12.jpg" class="img-fluid multpic-img">
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!--Dream Cosmetics-->
+
+	<div class="container"> <!--apply padding top to card-->
+		<div class="card" id="cosmetic" style="margin-top: 50px;">
+			<h3 class="card-title" style="text-align: center;">Dream Cosmetics</h3>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="image/sha3.jpg" class="panel-img img-fluid" >
+					</div>
+					<div class="col-md-4">
+						<img src="image/sha7.jpg" class="panel-img img-fluid">
+					</div>
+					<div class="col-md-4">
+						<img src="image/sha6.jpg" class="panel-img img-fluid">
+					</div>
+				</div>
+					<!-- Second row -->
+				<div class="row">
+					<div class="col-md-4">
+						<img src="image/shah1.jpg" class="panel-img img-fluid">
+					</div>
+					<div class="col-md-4">
+						<img src="image/sha4.jpg" class="panel-img img-fluid">
+					</div>
+					<div class="col-md-4">
+						<img src="image/sha2.jpg" class="panel-img img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Shanan Bevy Collection-->
+
+	<div class="container"> <!--apply padding top to card-->
+		<div class="card" id="shanan" style="margin-top: 50px;">
+			<h3 class="card-title" style="text-align: center;">Shahnan Bevy Collections</h3>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="image/cos1.jpg" class="panel-img img-fluid">
+					</div>
+					<div class="col-md-4">
+						<img src="image/cos2.jpg" class="panel-img img-fluid">
+					</div>
+					<div class="col-md-4">
+						<img src="image/cos3.jpg" class="panel-img img-fluid">
+					</div>
+				</div>
+					<!-- Second row -->
+				<div class="row">
+					<div class="col-md-4">
+						<img src="image/cos4.jpg" class="panel-img img-fluid">
+					</div>
+					<div class="col-md-4">
+						<img src="image/cos5.jpg" class="panel-img img-fluid">
+					</div>
+					<div class="col-md-4">
+						<img src="image/cos6.jpg" class="panel-img img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="bg-dark" id="footer" style="margin-top: 30px;">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-4 text-white">
+				<h5>Address</h5>
+				<address>
+				<i class="fas fa-map-marker-alt"></i>
+				No. 10, Gumel road,<br>
+				Off Hadeja Road,<br>
+				Bompai,<br>
+				Kano,<br>
+				Nigeria.
+				</address>
+			</div>
+			<div class="container col-md-4 text-white">
+				<h5>Folliow us on social media</h5>
+				<a href="https://www.instagram.com/dream_makeupworld">
+					<span style="font-size: 24px;">
+					<i class="fab fa-instagram"></i>
+					</span>
+				</a>
+				<a href="https://www.instagram.com/shahnan_bevy/">
+					<span style="font-size: 24px; padding: 30px;">
+					<i class="fab fa-twitter"></i>
+					</span>
+				</a>
+				<a href="#">
+					<span style="font-size: 24px;">
+					<i class="fab fa-facebook"></i>
+					</span>
+				</a>
+			</div>
+			<div class="col-md-4">
+			<h5 style="color: white;">Contact us</h5>
+			<span>
+				<i class="fa fa-envelope" style="color: white;">ddnaana@gmail.com</i>
+			</span><br>
+			<span>
+				<i class="fas fa-phone-square" style="color: white;">08080286199</i>
+			</span><br>
+			<span>
+				<i class="fab fa-whatsapp-square" style="color: white;">08080286199</i>
+			</span>
+			</div>
+		</div>
+		</div>
+	</footer>
+
 
 
 <script type="text/javascript" src="js/jquery.js"></script>
